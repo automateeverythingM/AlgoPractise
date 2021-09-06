@@ -1,3 +1,5 @@
+// Copyright © 2021 AlgoExpert LLC. All rights reserved.
+// O(nlog(n) + mlog(m)) time | O(1) space
 export function smallestDifference(arrayOne: number[], arrayTwo: number[]) {
   arrayOne.sort((a, b) => a - b);
   arrayTwo.sort((a, b) => a - b);
